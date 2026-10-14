@@ -1,0 +1,14 @@
+.for-hero-section {
+  background-color: #fb8516;
+  color: white;
+  padding: 12px 34px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: bold;
+}
+.for-hero-section:hover {
+  background-color: white;
+  color:#1925a8;
+}

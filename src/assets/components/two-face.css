@@ -1,0 +1,46 @@
+.content-two-face{
+    padding: 50px 0px ;
+    display: flex;
+    justify-content: center;
+}
+.first,.second{
+    background-color: #fb8516;
+    color: #fff;
+    text-align: center;
+    font-family: 'Kumbh Sans';
+    line-height: 1.6;
+    padding: 133px 30px 133px 30px;
+    border-radius:10px ;
+
+}
+.first p ,.second p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.second{
+    background-color: blue!important;
+    
+}
+.first button,.second button{
+    color: black;
+    background-color: #fff;
+    padding:12px 34px!important;
+}
+.first button:hover,.second button:hover{
+    background-color: transparent;
+    color: #fff;
+    border: solid;
+}
+/* responsive */
+@media (max-width:991px){
+  .second p{
+    padding-top: 40px;
+  }
+}
+@media (max-width:767px){
+    .content-two-face{
+        flex-direction: column;
+    }
+}

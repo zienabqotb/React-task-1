@@ -1,0 +1,124 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.container{
+      padding: 30px 100px;
+}
+.hero-section{
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(to right, #4248bd, #2b6cd4);
+}
+.web{
+  width: 50%;
+  height: 50%;
+}
+.content{
+  color: white;
+  width: 50%;
+  padding-top: 100px;
+}
+.content p{
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.fire-icon{
+  color: #fb8516;
+  margin-right: 10px;
+}
+.content .highlight{
+  color: #fb8516 ;
+}
+.content h1{
+  font-size: 65px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.button-container{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding-top: 40px;
+}
+.button-container .starting-at{
+  padding-bottom: 10px!important;
+  font-weight: lighter!important;
+  font-size: 18px!important;
+}
+.price{
+  font-weight: bold;
+  font-size: 18px;
+}
+/* Responsive for hero section */
+@media (max-width: 991px) {
+  .container {
+    padding: 20px;
+  }
+  .hero-section {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .web {
+    width: 100%;
+  }
+  .content {
+    padding-top: 20px;
+    padding-left: 30px;
+    width: 100%;
+  }
+  .button-container{
+    gap: 140px;
+  }
+}
+@media (max-width: 767px) {
+  .content h1 {
+    font-size: 40px;
+  }
+  .button-container{
+    flex-direction: column;
+    gap: 60px;
+    align-items:start;
+  }
+}
+/* support-section */
+.support{
+  display: flex;
+  justify-content: center;
+  padding: 40px 50px 150px 80px;
+  gap: 60px;
+}
+.support-content{
+ display: flex;
+ flex-direction: column;
+ gap: 40px;
+ align-items: start;
+ padding-top: 40px;
+}
+.support-content p{
+  font-size: 18px;
+  line-height: 1.8;
+}
+.support-content button:hover{
+  background-color: #2b6cd4;
+  color: #fff;
+}
+
+/* responsive support-section */
+@media(max-width:991px){
+  .support{
+      flex-direction: column;
+       gap: 5px;
+  }
+  .support-content{
+    padding-top: 0px;
+  }
+}
+@media(max-width:767px){
+  .support{
+    padding: 20px;
+  }
+}
